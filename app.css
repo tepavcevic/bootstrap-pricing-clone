@@ -74,6 +74,7 @@ body {
 .cards {
   display: flex;
   gap: 24px;
+  margin-bottom: 36px;
 }
 
 .card {
@@ -82,6 +83,8 @@ body {
   border: 1px solid #0000002d;
   border-radius: 0.5em;
   text-align: center;
+  box-shadow: 0 2px 4px rgba(33, 37, 41, 0.075);
+  overflow: hidden;
 }
 
 .card-header {
@@ -90,15 +93,38 @@ body {
   padding: 16px;
 }
 
+.card-selected {
+  border: 1px solid #0d6efd;
+}
+
+.card-selected .card-header {
+  color: #fff;
+  background-color: #0d6efd;
+  border-bottom: 1px solid #0d6efd;
+}
+
 .card-title {
   margin: 0;
   padding: 0;
   font-size: 1.4em;
   font-weight: 400;
+  line-height: 1.2;
 }
 
 .card-body {
   padding: 16px;
+}
+
+.card-price {
+  font-size: 2.3em;
+  font-weight: 500;
+  margin: 0 0 8px 0;
+}
+
+.price-muted {
+  font-size: 0.9em;
+  font-weight: 300;
+  color: #212529bf;
 }
 
 ul {
@@ -118,4 +144,28 @@ ul {
   background-color: #fff;
   color: #0d6efd;
   border: 1px solid #0d6efd;
+}
+
+.btn-free:hover {
+  background-color: #0d6efd;
+  color: #fff;
+  border: 1px solid #0d6efd;
+}
+
+.btn-paid {
+  background-color: #0d6efd;
+  color: #fff;
+  border: 1px solid #0d6efd;
+}
+
+.btn-paid:hover {
+  background-color: #0b5ed7;
+}
+
+.comparison-header {
+  font-size: 2.4em;
+  font-weight: 300;
+  line-height: 1.2;
+  text-align: center;
+  margin: 0 0 24px 0;
 }
