@@ -1,0 +1,121 @@
+body {
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue",
+    "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas,
+    "Liberation Mono", "Courier New", monospace;
+  margin: 0;
+  line-height: 1.5;
+  color: #212529;
+  background-image: linear-gradient(180deg, #eee, #fff 100px, #fff);
+}
+
+.container {
+  box-sizing: border-box;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 16px 12px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 24px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid #dee2e6;
+}
+
+.header-logo {
+  font-size: 1.4em;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #212529;
+}
+
+.logo {
+  margin-right: 8px;
+}
+
+.header-nav {
+  display: inline-flex;
+  margin-left: auto;
+}
+
+.nav-link {
+  padding: 8px 0;
+}
+
+.nav-link-mr {
+  margin-right: 16px;
+}
+
+.pricing-header {
+  text-align: center;
+  padding: 16px;
+  margin: 0 auto;
+  max-width: 668px;
+}
+
+.pricing-title {
+  font-size: 3.25em;
+  font-weight: 400;
+  padding: 0;
+  margin: 0 0 8px 0;
+}
+
+.pricing-text {
+  font-size: 1.25em;
+  font-weight: 400;
+  margin: 0 0 16px 0;
+  color: #212529bf;
+}
+
+.cards {
+  display: flex;
+  gap: 24px;
+}
+
+.card {
+  flex-grow: 1;
+  width: 33%;
+  border: 1px solid #0000002d;
+  border-radius: 0.5em;
+  text-align: center;
+}
+
+.card-header {
+  background-color: #21252908;
+  border-bottom: 1px solid #0000002d;
+  padding: 16px;
+}
+
+.card-title {
+  margin: 0;
+  padding: 0;
+  font-size: 1.4em;
+  font-weight: 400;
+}
+
+.card-body {
+  padding: 16px;
+}
+
+ul {
+  list-style-type: none;
+  display: block;
+  padding: 0;
+}
+
+.btn {
+  width: 100%;
+  padding: 8px 16px;
+  font-size: 1.25em;
+  border-radius: 8px;
+}
+
+.btn-free {
+  background-color: #fff;
+  color: #0d6efd;
+  border: 1px solid #0d6efd;
+}
