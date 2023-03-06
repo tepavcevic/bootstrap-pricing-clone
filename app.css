@@ -43,9 +43,12 @@ body {
 }
 
 .nav-link {
-  padding: 8px 0;
   color: #212529;
   text-decoration: none;
+}
+
+.nav-link-padding {
+  padding: 8px 0;
 }
 
 .nav-link-mr {
@@ -70,6 +73,9 @@ body {
   font-size: 1.25em;
   font-weight: 400;
   margin: 0 0 16px 0;
+}
+
+.text-muted {
   color: #212529bf;
 }
 
@@ -123,10 +129,9 @@ body {
   margin: 0 0 8px 0;
 }
 
-.price-muted {
+.price-small {
   font-size: 0.9em;
   font-weight: 300;
-  color: #212529bf;
 }
 
 ul {
@@ -173,14 +178,13 @@ ul {
 }
 
 .table-responsive {
-  display: block;
+  overflow-x: auto;
   width: 100%;
 }
 
 .table {
   width: 100%;
   text-align: center;
-  margin-bottom: 16px;
   border-collapse: collapse;
 }
 
@@ -213,4 +217,34 @@ ul {
 .check {
   width: 24px;
   height: 24px;
+}
+
+footer {
+  display: grid;
+  grid-template: auto / repeat(4, 1fr);
+  margin: 48px 0;
+  padding-top: 48px;
+  border-top: thin solid #dee2e6;
+}
+
+.footer-heading {
+  font-weight: 500;
+  margin: 0 0 8px 0; 
+}
+
+.footer-logo {
+  margin-bottom: 8px;
+}
+
+.copyright {
+  display: block;
+  margin-bottom: 16px;
+}
+
+footer ul {
+  margin: 0;
+}
+
+footer li {
+  margin-bottom: 4px;
 }
